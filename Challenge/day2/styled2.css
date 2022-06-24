@@ -1,0 +1,56 @@
+@import url('../all.css');
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1256px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    color: #FE5B00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    display: inline-flex;
+    justify-content: center;
+    border: #FE5B00 solid 2px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border-color: #FF6006;
+    width: 245px;
+}
+
+.wrapper-next{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.next{
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+}
+
+.arrow {
+ margin-left: 10px;
+}
+
+.wrapper-chose {
+    align-self: flex-end;
+}

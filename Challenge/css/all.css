@@ -31,6 +31,11 @@ a {
 
 }
 
+.header-white {
+    color: white;
+}
+
+
 h1 {
     margin: 0;
     padding: 0;
@@ -107,7 +112,7 @@ p {
 }
 
 .img h1 {
-    color: white;
+
 }
 
 

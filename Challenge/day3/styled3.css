@@ -1,0 +1,44 @@
+@import url('../all.css');
+
+.wrapper {
+    padding: 0px;
+    margin: 0px;
+    background: url('/Challenge/img/back.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    align-items: start;
+}
+
+.card {
+    display: block;
+
+
+}
+
+.cards-img {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+
+
+}

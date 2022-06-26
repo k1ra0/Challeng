@@ -1,15 +1,8 @@
 @import url('../all.css');
 
 
-nav {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-a {
-    text-decoration: none;
-    color: #FE5B00;
+.next-day{
+    color: #333;
 
 }
 

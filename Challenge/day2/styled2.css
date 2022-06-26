@@ -7,6 +7,12 @@ nav {
 
 }
 
+a {
+    text-decoration: none;
+    color: #FE5B00;
+
+}
+
 .container {
     width: 100%;
     max-width: 1256px;
@@ -53,4 +59,48 @@ nav {
 
 .wrapper-chose {
     align-self: flex-end;
+}
+
+.main-text{
+    width: 657px;
+
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 517px;
+}
+
+.emb {
+
+    width: 517px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+
+}
+
+.bot{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.source {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+
 }

@@ -10,7 +10,7 @@ a {
 body {
     padding: 0px;
     margin: 0px;
-    background: url('img/back.png') no-repeat;
+    background: url('/Challenge/img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
     overflow-y:hidden;  /*для вертикального*/

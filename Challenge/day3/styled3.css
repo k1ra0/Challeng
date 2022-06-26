@@ -14,14 +14,16 @@
 .cards {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
     align-items: start;
 }
 
 .card {
     display: block;
-
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 

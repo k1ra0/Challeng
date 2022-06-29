@@ -28,6 +28,7 @@ function watch() {
         }
     });
     gulp.watch('/src/css/**/*.css', styles)
+    gulp.watch('/src/css/**/*.less', styles)
     gulp.watch("./*.html").on('change', browserSync.reload);
 
 }

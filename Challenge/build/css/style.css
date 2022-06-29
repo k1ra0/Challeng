@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('/Challenge/css/all.css');
+
+
+a {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+
+.first-screen {
+    background: url('/src/img/back.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper-inner__left {
+    display: flex;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 400px){
+    h1 {
+    font-size: 48px;
+    }
+
+
+
+}
+
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 400;
+    width: 264px;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: #FF6006;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+background-color: #FE5B00;
+}
+
+
+.all {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+padding: 0;
+margin: 0;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1256px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+.next-day{
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color: #FE5B00;
+
+}
+
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.header-white {
+    color: white;
+}
+
+@media screen and (max-width: 400px){
+    h1 {
+    font-size: 48px;
+    }
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1%;
+}
+
+.logo {
+    color: #FE5B00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    display: inline-flex;
+    justify-content: center;
+    border: #FE5B00 solid 2px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border-color: #FF6006;
+    width: 245px;
+    height: 1.5em;
+}
+
+.wrapper-next{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    display: flex;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.next{
+
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+}
+
+.arrow {
+ margin-left: 10px;
+ height: 10px;
+ align-self: center;
+}
+
+
+
+
+.wrap {
+    position: absolute;
+    top: 90px;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    width: 200px;
+}
+
+.menu:hover .wrap {display: block;}
+
+ul {
+margin: 5px;
+padding: 10px 25px;
+text-decoration: none;
+list-style-type: none;
+}
+
+ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+@import url('/Challenge/css/all.css');
+
+
+.next-day{
+    color: #333;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1256px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    color: #FE5B00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    display: inline-flex;
+    justify-content: center;
+    border: #FE5B00 solid 2px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border-color: #FF6006;
+    width: 245px;
+}
+
+.wrapper-next{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.next{
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+}
+
+.arrow {
+ margin-left: 10px;
+}
+
+.wrapper-chose {
+    align-self: flex-end;
+}
+
+.main-text{
+    width: 657px;
+
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 517px;
+}
+
+.emb {
+
+    width: 517px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+
+}
+
+.bot{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.source {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+
+}
+@import url('/Challenge/css/all.css');
+
+.wrapper-page {
+    padding: 0px;
+    margin: 0px;
+    background: url('/src/img/back3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    align-items: start;
+}
+
+.card {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.cards-img {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+}

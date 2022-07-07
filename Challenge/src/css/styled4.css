@@ -1,0 +1,12 @@
+@import url('/Challenge/css/all.css');
+.grid_content {
+  display: grid;
+  grid-template-areas: 'i k' 'i k' 'i k';
+  gap: 30px;
+}
+.ivan-name {
+  background-color: green;
+}
+.kira {
+  grid-area: k;
+}

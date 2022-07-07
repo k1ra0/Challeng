@@ -7,7 +7,8 @@ const cssFiles = [
     './src/css/style.less',
     './src/css/all.less',
     './src/css/styled2.less',
-    './src/css/styled3.less'
+    './src/css/styled3.less',
+    './src/css/styled4.less',
 ]
 
 function styles () {

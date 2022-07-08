@@ -3,18 +3,112 @@
 .grid_content {
     display: grid;
     grid-template-areas:
-    'i k'
-    'i k'
-    'i k';
+    '. ivan . kira .'
+    'ivantext ivantext ivantext ivanimg ivanimg'
+    'kiraimg kiraimg kiratext kiratext kiratext'
+    '. form form form .';
+    margin-top: 100px;
     gap: 30px;
+    row-gap: 100px;
 }
 
-.ivan-name {
-    background-color: green;
 
+
+
+.ivan {
+    height: 530px;
+    width: auto;
+    grid-area: ivan;
+}
+
+.port-ivan {
+    height: 430px;
+    width: auto;
 }
 
 .kira {
-    grid-area: k;
+    height: 530px;
+    width: auto;
+    grid-area: kira;
+}
+
+.port-kira {
+    height: 430px;
+    width: auto;
+}
+
+.meme-wrapper {
+   margin-top: 100px;
+}
+
+.ivan-text {
+    grid-area: ivantext;
+
+}
+
+.kira-text {
+    grid-area: kiratext;
+
+}
+
+.text {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.ivanimg {
+
+    margin-top: 100px;
+    grid-area: ivanimg;
+}
+
+.kiraimg {
+    margin-top: 100px;
+    grid-area: kiraimg;
+}
+
+.form-rekv {
+    grid-area: form;
+
+
+}
+
+.place {
+    display: inline-block;
+    width: 100%;
+    margin-top: 34px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 20px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    border: 1px solid #888;
+}
+.btn-sub {
+    display: block;
+    width: 264px;
+    height: 54px;
+    background-color: #FE5B00;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    font-size: 24px;
+    color: white;
+    border-radius: 2px;
+}
+
+.request {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.place_textarea {
+    padding-top: 10px;
+
 
 }

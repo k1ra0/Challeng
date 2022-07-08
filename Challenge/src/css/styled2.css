@@ -1,0 +1,71 @@
+@import url('/Challenge/css/all.css');
+.next-day {
+  color: #333;
+}
+.logo {
+  color: #FE5B00;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  display: inline-flex;
+  justify-content: center;
+  border: #FE5B00 solid 2px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border-color: #FF6006;
+  width: 245px;
+}
+.wrapper-next {
+  margin-top: 35px;
+  margin-bottom: 70px;
+  display: flex;
+}
+.next {
+  margin-left: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+}
+.arrow {
+  margin-left: 10px;
+}
+.wrapper-chose {
+  align-self: flex-end;
+}
+.main-text {
+  width: 657px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 517px;
+}
+.emb {
+  width: 517px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+}
+.bot {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.source {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}

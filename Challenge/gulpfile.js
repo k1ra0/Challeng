@@ -19,7 +19,7 @@ function styles () {
 }
 
 function clean() {
-    return del(['build/*'])
+    return del(['./build/*'])
 }
 
 function watch() {
@@ -28,8 +28,7 @@ function watch() {
             baseDir: "./"
         }
     });
-    gulp.watch('/src/css/**/*.css', styles)
-    gulp.watch('/src/css/**/*.less', styles)
+    gulp.watch('./src/css/*.css', styles).on('change', browserSync.reload);
     gulp.watch("./*.html").on('change', browserSync.reload);
 
 }
